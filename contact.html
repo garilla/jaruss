@@ -37,7 +37,14 @@
     <![endif]-->
   </head>
   <body>
-    
+        <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "http://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.3";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
       <div id="page" class="hfeed site">
           <!-- start page wrapper -->
           <!-- <div id="preloader"></div> -->
@@ -207,7 +214,11 @@
                                       </a>
                                   </div><!-- end carousel -->
                               </div><!-- end widget -->
-
+							<div class="widget">
+								<div class="fb-page" data-href="https://www.facebook.com/masterskayajaruss" data-width="390" data-height="150" data-hide-cover="false" data-show-facepile="false" data-show-posts="false">
+								<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/masterskayajaruss">
+								<a href="https://www.facebook.com/masterskayajaruss">Столярная мастерская Ярусс</a></blockquote></div></div>
+							</div>
                           </div><!-- end sidebar -->
                       </aside><!-- end secondary -->
                   </div><!-- end row -->
