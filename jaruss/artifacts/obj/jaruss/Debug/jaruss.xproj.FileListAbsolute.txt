@@ -1,0 +1,3 @@
+F:\jarussnet\sources\jaruss\artifacts\obj\jaruss\Debug\jaruss.xprojResolveAssemblyReference.cache
+F:\jarussnet\sources\jaruss\artifacts\bin\jaruss\Properties\Resources.resx
+F:\jarussnet\sources\jaruss\artifacts\bin\jaruss\Properties\Resources.Designer.cs

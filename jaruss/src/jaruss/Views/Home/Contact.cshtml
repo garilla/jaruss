@@ -1,0 +1,76 @@
+﻿<div class="head-title">
+    <div class="container">
+        <div class="row">
+            <h1 class="page-title">Наши контакты</h1>
+            <p class="title-desc">Мы всегда открыты для общения с заказчиком</p>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end head-title -->
+<div id="main">
+    <div class="container">
+        <div class="row">
+            <div class="content-area col-md-8" id="primary">
+                <div class="site-content" id="content">
+                    <article class="post hentry">
+                        <header class="entry-header">
+                            <div class="entry-map">
+                                <div class="map">
+                                    <script type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=mvbVpOKYXqIyno950nvknwrun3axBTym&width=750&height=450"></script>
+                                    <!--<script type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=8ror8RNS50j47KsDOUnPwPQjpSamhPxi&width=750&height=413"></script>-->
+                                </div><!-- end map -->
+
+                            </div><!-- end entry-media -->
+                        </header><!-- end entry-header -->
+                        <div class="entry-content">
+                            <div class="row">
+                                <p>
+                                    Расположение : г. Томск, улица Мичурина 112<br />Телефон : +7 903 954 1368<br />Почта : <a href='m&#97;&#105;&#108;&#116;o&#58;info&#64;jaru&#37;73%&#55;3&#46;&#110;et'>in&#102;&#111;&#64;ja&#114;us&#115;&#46;net</a></a>
+                                </p>
+                            </div><!-- end row -->
+                        </div><!-- end entry-content -->
+                    </article><!-- end hentry -->
+                    <div class="comment-outer">
+                        <div id="respond" class="comment-respond">
+                            <h2 id="reply-title" class="comment-reply-title">Отправить сообщение</h2>
+                            <form class="comment-form" method="post" id="send-email" action="/mail.php">
+                                <p class="comment-notes">Ваш email не будет разглашен. Все поля обязательны к заполнению.</p>
+                                <p class="comment-form-email">
+                                    <label for="author">Имя</label>
+                                    <span class="required">*</span>
+                                    <input id="author" type="text" class="input-text" name="name">
+                                </p>
+                                <p class="comment-form-author">
+                                    <label for="email">Email</label>
+                                    <span class="required">*</span>
+                                    <input id="email" type="text" class="input-text" name="email">
+                                </p>
+                                <p class="comment-form-url">
+                                    <label for="subject">Тема</label>
+                                    <span class="required">*</span>
+                                    <input id="subject" type="text" class="input-text" name="subject" spellcheck="true">
+                                </p>
+                                <p class="comment-form-comment">
+                                    <label for="message">Сообщение</label>
+                                    <textarea name="message" id="message" cols="45" rows="10" class="input-text" spellcheck="true"></textarea>
+                                </p>
+                                <p class="form-submit">
+                                    <input class="btn btn-md btn-default" id="send-email-submit-button" name="submit" type="button" value="Отправить">
+                                </p>
+                                <span id="send-success">✓ Сообщение отправлено</span>
+                                <span id="send-error">✘ Во время отправки сообщения возникла ошибка</span>
+                            </form><!-- end #comment-form -->
+                        </div><!-- end comment-respond -->
+                    </div><!-- end comment-outer -->
+
+                </div><!-- end site-content -->
+            </div><!-- end content-area -->
+            <aside id="secondary" class="col-md-4">
+                <div class="sidebar">
+                    @Html.Partial("WorkExamples")
+                    @Html.Partial("FacebookWidget")
+                    @Html.Partial("VKWidget")
+                </div><!-- end sidebar -->
+            </aside><!-- end secondary -->
+        </div><!-- end row -->
+    </div>
+</div><!-- end main -->

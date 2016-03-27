@@ -1,0 +1,92 @@
+﻿
+<div class="head-title">
+    <div class="container">
+        <div class="row">
+            <h1 class="page-title">Часто задаваемые вопросы</h1>
+            <p class="title-desc">Здесь мы постарались ответить на часто возникающие вопросы, чтобы сэкономить ваше и наше время</p>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end head-title -->
+
+<div id="main">
+    <div class="container">
+        <div class="row">
+
+            <div class="content-area col-md-8" id="primary">
+                <div class="site-content" id="content">
+
+                    <article class="post format-faq hentry">
+
+                        <div class="entry-content">
+
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                                <div class="panel panel-default" itemscope itemtype="http://schema.org/Question">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h2 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <span itemprop="text">Какие у вас расценки?</span>
+                                                <i class="fa fa-fw fa-arrow-circle-down"></i>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="panel-body" itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                                            <span itemprop="text">К сожалению, мы не можем ответить на этот вопрос, не зная деталей вашего замысла. Стоимость изделий зависит от материалов, которые используются, отделки, сложности изделия и монтажа. Оставьте нам заявку с описанием вашего проекта, и мы сориентируем вас по цене.</span>
+                                        </div><!-- end panel-body -->
+                                    </div><!-- end .panel collapse -->
+                                </div><!-- end panel -->
+
+                                <div class="panel panel-default" itemscope itemtype="http://schema.org/Question">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h2 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span itemprop="text">Как много времени займет работа?</span>
+                                                <i class="fa fa-fw fa-arrow-circle-down"></i>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                        <div class="panel-body" itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                                            <span itemprop="text">Мы создаем уникальные предметы, поэтому бывает сложно точно оценить необходимое для работы время. Кроме того работа с деревом включает в себя процессы, которые невозможно ускорить, например сушку после нанесения лака. Если у вас есть жесткие ограничения по срокам, то лучше сразу дать об этом знать, чтобы мы смогли построить работу соотвественно требованиям.</span>
+                                        </div><!-- end panel-body -->
+                                    </div><!-- end .panel collapse -->
+                                </div><!-- end panel -->
+
+                                <div class="panel panel-default" itemscope itemtype="http://schema.org/Question">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h2 class="panel-title">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <span itemprop="text">Можно ли сделать из сосны/ДСП и т.д.?</span>
+                                                <i class="fa fa-fw fa-arrow-circle-down"></i>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                        <div class="panel-body" itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+                                            <span itemprop="text">Наша мастерская занимается эксклюзивной мебелью и предметами интерьера. Нам кажется бессмысленным вкладывать большое количество труда в изделие, если оно не будет служить долго. Поэтому мы работаем только с твердыми породами дерева.</span>
+                                        </div><!-- end panel-body -->
+                                    </div><!-- end .panel collapse -->
+                                </div><!-- end panel -->
+
+                            </div><!-- end panel-group -->
+
+                        </div><!-- end entry-content -->
+
+                    </article><!-- end hentry -->
+
+
+                </div><!-- end site-content -->
+            </div><!-- end content-area -->
+
+            <aside id="secondary" class="col-md-4">
+                <div class="sidebar">
+                    @Html.Partial("WorkExamples")
+                    @Html.Partial("FacebookWidget")
+                    @Html.Partial("VKWidget")
+                </div><!-- end sidebar -->
+            </aside><!-- end secondary -->
+
+        </div><!-- end row -->
+    </div>
+</div><!-- end main -->

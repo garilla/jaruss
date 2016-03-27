@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "jaruss"
+  },
+  "hostingPlanName": {
+    "value": "jaruss"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "f1f82d8c-5d0c-4a76-a9b7-99e47c4b3416"
+  },
+  "resourceGroup": {
+    "value": "jaruss"
+  }
+}

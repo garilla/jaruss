@@ -1,0 +1,9 @@
+F:\jarussnet\sources\jaruss\Resources\bin\Release\Properties\Resources.resx
+F:\jarussnet\sources\jaruss\Resources\bin\Release\Properties\Resources.Designer.cs
+F:\jarussnet\sources\jaruss\Resources\bin\Release\Resources.dll
+F:\jarussnet\sources\jaruss\Resources\bin\Release\Resources.pdb
+F:\jarussnet\sources\jaruss\Resources\obj\Release\Resources.csprojResolveAssemblyReference.cache
+F:\jarussnet\sources\jaruss\Resources\obj\Release\Resources.Properties.Resources.resources
+F:\jarussnet\sources\jaruss\Resources\obj\Release\Resources.csproj.GenerateResource.Cache
+F:\jarussnet\sources\jaruss\Resources\obj\Release\Resources.dll
+F:\jarussnet\sources\jaruss\Resources\obj\Release\Resources.pdb

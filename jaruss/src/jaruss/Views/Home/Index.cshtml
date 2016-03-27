@@ -1,0 +1,289 @@
+﻿<!-- CAROUSEL SECTION -->
+<div id="carousel-home" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-home" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/slider1.jpg" alt="Наше творчество основано на традиционном столярном искусстве">
+            <div class="carousel-caption">
+                <h1>Наше творчество основано на традиционном столярном искусстве</h1>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/slider2.jpg" alt="Настоящее качество складывается из мелочей">
+            <div class="carousel-caption">
+                <h1>Качество — это делать что-либо правильно, даже когда никто не смотрит</h1>
+            </div>
+        </div>
+    </div><!-- end carousel inner -->
+    <!-- Controls -->
+
+    <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+        <span class="fa fa-fw fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+        <span class="fa fa-fw fa-chevron-right"></span>
+    </a>
+
+</div> <!-- Carousel -->
+
+<section class="home-service">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-service">
+                <span class="small-icon">
+                    <i class="fa fa-fw fa-group"></i>
+                </span>
+                <div class="small-icon-text">
+                    <h1 class="medium">Команда</h1>
+                    <p>Наш подход к работе требует высочайшей квалификации, и мы рады, что наша команда успешно справляется со своими задачами.</p>
+                </div><!-- end text -->
+            </div><!-- end column -->
+
+            <div class="col-service">
+                <span class="small-icon">
+                    <i class="fa fa-fw fa-gears"></i>
+                </span>
+                <div class="small-icon-text">
+                    <h1 class="medium">Технологии</h1>
+                    <p>Нам нравится сплав современных технологий и традиционных приемов работы. Соединение «ласточкин хвост», используемое с незапамятных времен, и самая современная фурнитура, почему нет?</p>
+                </div><!-- end text -->
+            </div><!-- end column -->
+
+            <div class="col-service">
+                <span class="small-icon">
+                    <i class="fa fa-fw fa-cube"></i>
+                </span>
+                <div class="small-icon-text">
+                    <h1 class="medium">Материалы</h1>
+                    <p>Мы не идем на компромиссы, когда речь идет о материалах для наших изделий.  Для всех работ используется массив дерева благородных пород.</p>
+                </div><!-- end text -->
+            </div><!-- end column -->
+
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end service-row -->
+
+<section class="home-about">
+    <div class="container">
+        <div class="row">
+            <div class="about-text">
+                <h1 class="home-title">Кто мы такие</h1>
+                <p class="trigger animated fadeInUp">Столярная мастерская «Ярусс» - это команда профессиональных столяров, имеющая в своем распоряжении самое современное оборудование и знания, передаваемые из поколения в поколение. Направление нашей работы варьируется от мебели и предметов интерьера, до экстерьеров и реставрации. Все наши проекты объединяет общий почерк мастерской, который складывается из внимания к деталям, использования исключительно качественных и натуральных материалов, проектирование с учетом условий эксплуатации и открытое общение с заказчиком.</p>
+                <p><a href="@Url.Action("Services", "Home")" class="btn btn-default">Подробнее</a></p>
+            </div><!-- end column -->
+            <div class="about-figure">
+                <figure>
+                    <img src="images/who-we-are.jpg" alt="Ярусс - столярная мастерская с профессиональной командой столяров">
+                </figure>
+            </div><!-- end column -->
+        </div><!-- end row -->
+    </div>
+</section><!-- end about -->
+
+<section class="portfolio">
+    <div class="container">
+        <div class="row no-gutter">
+
+            <div id="filter">
+                <ul id="options">
+                    <li><a data-filter="*" href="#" class="selected">Все проекты</a></li>
+                    <li><a data-filter=".interior" href="#">Интерьеры</a></li>
+                    <li><a data-filter=".doors" href="#">Входные группы</a></li>
+                    <li><a data-filter=".exterior" href="#">Экстерьеры</a></li>
+                </ul>
+            </div><!-- end #filter -->
+
+
+            <div id="foliowrap">
+                <figure class="foliobox interior">
+                    <img src="images/folio6.jpg" alt="Интерьер спортзал газпром Томск">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Спротзал Газпром</h3>
+                        <!--<a href="#" class="goto">Подробнее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+
+                <figure class="foliobox exterior">
+                    <img src="images/folio5.jpg" alt="Экстерьер томский институт бизнеса">
+                    <figcaption>
+                        <span class="folcat">Экстерьер</span>
+                        <h3 class="foltitle">Томский институт бизнеса</h3>
+                        <!--<a href="#" class="goto">Подробнее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+
+                <figure class="foliobox interior">
+                    <img src="images/project-side-interior1.jpg" alt="Интерьер частного дома">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Частный дом</h3>
+                        <!--<a href="#" class="goto">Подробнее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+
+                <figure class="foliobox interior">
+                    <img src="images/project-side-furniture1.jpg" alt="Интерьер частного дома">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Частный дом</h3>
+                        <!--<a href="#" class="goto">Подробнее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox doors">
+                    <img src="images/folio1.jpg" alt="Входная группа здания г. Томск">
+                    <figcaption>
+                        <span class="folcat">Входная группа</span>
+                        <h3 class="foltitle">Здание организации</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox interior">
+                    <img src="images/folio6.gif" alt="Интерьер гостиничного номера">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Гостиница</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+            </div><!-- end #foliowrap -->
+
+            <div class="contact-hero">
+                <div class="pull-left">
+                    <p>Понравились наши работы?</p>
+                </div>
+                <div class="pull-right">
+                    <a href="@Url.Action("Contact", "Home")" class="btn btn-lg btn-default">Оставить заявку</a>
+                </div>
+            </div><!-- end contact-hero -->
+
+        </div><!-- end row -->
+    </div>
+</section><!-- end portfolio -->
+
+<section class="bloghome">
+    <div class="container">
+        <div class="row">
+            <h1 class="home-title">Наш подход</h1>
+
+            <div class="col-sm-4">
+                <div class="inner">
+                    <figure class="w-thumb">
+                        <img src="images/work-process2.jpg" alt="Материалы">
+                    </figure>
+                    <div class="entry-header">
+                        <h2 class="post-title entry-title">
+                            <a href="#">Материалы</a>
+                        </h2>
+                    </div><!-- end entry-header -->
+                    <div class="entry-content">
+                        <p>Каждую работу мы стараемся сделать как можно лучше, поэтому мы не позволяем себе использовать некачественные материалы. Твердые породы древесины, натуральные масла и качественные лаки входят в основной перечень компонентов. Мы дополняем свои изделия надежной фурнитурой, стеклом и металлическими конструкциями.</p>
+                    </div><!-- entry-content -->
+                </div><!-- end inner -->
+            </div><!-- end column -->
+
+            <div class="col-sm-4">
+                <div class="inner">
+                    <figure class="w-thumb">
+                        <img src="images/work-process3.jpg" alt="Организация работы">
+                    </figure>
+                    <div class="entry-header">
+                        <h2 class="post-title entry-title">
+                            <a href="#">Организация работы</a>
+                        </h2>
+                    </div><!-- end entry-header -->
+                    <div class="entry-content">
+                        <p>Мы не ограничены жесткими рамками, во главе всегда стоит желание заказчика. Вы можете иметь уже проработанный проект с чертежами или только расплывчатую идею, в любом случае мы сможем помочь реализовать ваш замысел.</p>
+                    </div><!-- entry-content -->
+                </div><!-- end inner -->
+            </div><!-- end column -->
+
+            <div class="col-sm-4">
+                <div class="inner">
+                    <figure class="w-thumb">
+                        <img src="images/work-process1.jpg" alt="Направления и стили">
+                    </figure>
+                    <div class="entry-header">
+                        <h2 class="post-title entry-title">
+                            <a href="#">Направления и стили</a>
+                        </h2>
+                    </div><!-- end entry-header -->
+                    <div class="entry-content">
+                        <p>
+                            Нельзя быть лучшими во всем, поэтому мы работаем в ограниченном количестве стилей, среди которых:
+                            <ul>
+                                <li>Английский кабинетный стиль</li>
+                                <li>Классицизм, неоклассицизм</li>
+                                <li>Русский стиль</li>
+                                <li>Хай-тек</li>
+                                <li>Минимализм</li>
+                                <li>Постмодерн</li>
+                                <li>Конструктивизм</li>
+                            </ul>
+                        </p>
+                    </div><!-- entry-content -->
+                </div><!-- end inner -->
+            </div><!-- end column -->
+
+        </div><!-- end row -->
+    </div>
+</section><!-- end blog -->
+
+<section class="partner">
+    <div class="container">
+        <div class="row">
+            <h1 class="home-title">Наши партнеры</h1>
+            <div class="inner">
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.bormawachs.com/ru/"><img src="images/partners/borma-logo.gif" alt="borma logo"></a>
+                    </div>
+                </div><!-- end column -->
+
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.brusso.com/"><img src="images/partners/brusso-logo.gif" alt="brusso logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.kleiberit.ru/"><img src="images/partners/kleiberit-logo.gif" alt="kleiberit logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.kreidezeit.de/"><img src="images/partners/kreidezeit-logo.gif" alt="kreidezeit logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.rhenocoll.org/"><img src="images/partners/rhenocoll-logo.gif" alt="rhenocoll logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.titebond.com/"><img src="images/partners/titlebond-logo.gif" alt="titlebond logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.votteler.com/"><img src="images/partners/votteler-logo.gif" alt="votteler logo"></a>
+                    </div>
+                </div><!-- end column -->
+                <div class="col-partner">
+                    <div>
+                        <a href="http://www.woodstock.su/"><img src="images/partners/woodstock-logo.gif" alt="woodstock logo"></a>
+                    </div>
+                </div><!-- end column -->
+            </div><!-- end inner -->
+        </div>
+    </div>
+</section><!-- end partner -->
