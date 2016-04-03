@@ -33,7 +33,7 @@
 
 </div> <!-- Carousel -->
 
-<section class="home-service">
+@*<section class="home-service">
     <div class="container">
         <div class="row">
 
@@ -69,21 +69,80 @@
 
         </div><!-- end row -->
     </div><!-- end container -->
-</section><!-- end service-row -->
+</section><!-- end service-row -->*@
 
 <section class="home-about">
     <div class="container">
         <div class="row">
-            <div class="about-text">
+            <div style="padding-top:60px;">
                 <h1 class="home-title">Кто мы такие</h1>
                 <p class="trigger animated fadeInUp">Столярная мастерская «Ярусс» - это команда профессиональных столяров, имеющая в своем распоряжении самое современное оборудование и знания, передаваемые из поколения в поколение. Направление нашей работы варьируется от мебели и предметов интерьера, до экстерьеров и реставрации. Все наши проекты объединяет общий почерк мастерской, который складывается из внимания к деталям, использования исключительно качественных и натуральных материалов, проектирование с учетом условий эксплуатации и открытое общение с заказчиком.</p>
-                <p><a href="@Url.Action("Services", "Home")" class="btn btn-default">Подробнее</a></p>
+                @*<p><a href="@Url.Action("Services", "Home")" class="btn btn-default">Подробнее</a></p>*@
             </div><!-- end column -->
-            <div class="about-figure">
+            @*<div class="about-figure">
                 <figure>
                     <img src="images/who-we-are.jpg" alt="Ярусс - столярная мастерская с профессиональной командой столяров">
                 </figure>
-            </div><!-- end column -->
+            </div>*@<!-- end column -->
+            <div class="service-wrapper">
+
+                <div class="col-service trigger animated fadeInLeft">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-tree"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Мебель из массива дерева</h2>
+                        <p>Наш конек – изготовление мебели и предметов интерьера из массива дерева. Большой спектр используемых пород дерева, стилей, материалов и способов обработки позволяют создавать нам эксклюзивную мебель.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+                <div class="col-service trigger animated fadeInUp">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-home"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Входные группы</h2>
+                        <p>Зачастую первое впечатление об общественной организации складывается по внешнему виду входной группы. Поэтому мы считаем дизайн и изготовление входных групп одним из приоритетных направлений.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+                <div class="col-service trigger animated fadeInRight">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-thumb-tack"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Монтаж</h2>
+                        <p>Правильный монтаж деревянных изделий сильно сказывается на внешнем виде и долговечности конструкции. Дерево – живой материал, и требует правильного обращения.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+
+                <div class="col-service trigger animated fadeInLeft">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-star"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Интерьер</h2>
+                        <p>У нас за плечами много проектов по созданию и дополнению интерьеров деревянными изделиями: встраиваемой мебелью, деревянными панелями, арками и т.д.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+                <div class="col-service trigger animated fadeInUp">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-star-o"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Экстерьер</h2>
+                        <p>Садовая мебель и деревянный забор органично вписываются в экстерьер загородного дома и дачи, а современные методы обработки позволяют им служить очень долго.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+                <div class="col-service trigger animated fadeInRight">
+                    <span class="small-icon">
+                        <i class="fa fa-fw fa-shield"></i>
+                    </span>
+                    <div class="small-icon-text">
+                        <h2>Реставрация</h2>
+                        <p>При правильном обращении деревянная мебель может служить веками. Но все же время и внешняя среда отрицательно влияют на деревянные изделия. Реставрация поправит внешний вид и продлит срок службы изделия.</p>
+                    </div><!-- end text -->
+                </div><!-- end column -->
+
+            </div><!-- end service-content -->
         </div><!-- end row -->
     </div>
 </section><!-- end about -->
