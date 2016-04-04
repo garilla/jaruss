@@ -225,21 +225,31 @@
                     <li><a data-filter=".interior" href="#">Интерьеры</a></li>
                     <li><a data-filter=".doors" href="#">Входные группы</a></li>
                     <li><a data-filter=".exterior" href="#">Экстерьеры</a></li>
+                    <li><a data-filter=".furniture" href="#">Мебель</a></li>
                 </ul>
             </div><!-- end #filter -->
 
 
             <div id="foliowrap">
-                <figure class="foliobox interior">
-                    <img src="images/folio6.jpg" alt="Интерьер спортзал газпром Томск">
+                <figure class="foliobox interior" img-group="0">
+                    <img src="~/images/folio6.jpg" alt="Интерьер спортзал спорткомплекс Ярмак Томск">
                     <figcaption>
                         <span class="folcat">Интерьер</span>
-                        <h3 class="foltitle">Спротзал Газпром</h3>
+                        <h3 class="foltitle">Зал спорткомлекс Ярмак</h3>
                         <!--<a href="#" class="goto">Подробнее</a>-->
                     </figcaption>
                 </figure><!-- end foliobox -->
 
-                <figure class="foliobox exterior">
+                <figure class="foliobox interior" img-group="1">
+                    <img src="~/images/gazprom-hall/Image00005.jpg" alt="Интерьер холл спорткомплекс Ярмак Томск">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Холл спорткомлекс Ярмак</h3>
+                        <!--<a href="#" class="goto">Подробнее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+
+                <figure class="foliobox exterior" img-group="2">
                     <img src="images/folio5.jpg" alt="Экстерьер томский институт бизнеса">
                     <figcaption>
                         <span class="folcat">Экстерьер</span>
@@ -248,8 +258,8 @@
                     </figcaption>
                 </figure><!-- end foliobox -->
 
-                <figure class="foliobox interior">
-                    <img src="images/project-side-interior1.jpg" alt="Интерьер частного дома">
+                <figure class="foliobox interior" img-group="3">
+                    <img src="~/images/private-home3/Image00002.jpg" alt="Интерьер частного дома">
                     <figcaption>
                         <span class="folcat">Интерьер</span>
                         <h3 class="foltitle">Частный дом</h3>
@@ -257,27 +267,67 @@
                     </figcaption>
                 </figure><!-- end foliobox -->
 
-                <figure class="foliobox interior">
-                    <img src="images/project-side-furniture1.jpg" alt="Интерьер частного дома">
+                <figure class="foliobox furniture" img-group="4">
+                    <img src="~/images/bed/Image00001.jpg" alt="Мебель кровать">
                     <figcaption>
-                        <span class="folcat">Интерьер</span>
-                        <h3 class="foltitle">Частный дом</h3>
+                        <span class="folcat">Мебель</span>
+                        <h3 class="foltitle">Кровать</h3>
                         <!--<a href="#" class="goto">Подробнее</a>-->
                     </figcaption>
                 </figure><!-- end foliobox -->
-                <figure class="foliobox doors">
-                    <img src="images/folio1.jpg" alt="Входная группа здания г. Томск">
+                <figure class="foliobox furniture interior" img-group="5">
+                    <img src="~/images/cupboard/Image00001.jpg" alt="Мебель шкаф">
                     <figcaption>
-                        <span class="folcat">Входная группа</span>
-                        <h3 class="foltitle">Здание организации</h3>
+                        <span class="folcat">Мебель</span>
+                        <h3 class="foltitle">Шкаф</h3>
                         <!--<a href="#" class="goto">Подробее</a>-->
                     </figcaption>
                 </figure><!-- end foliobox -->
-                <figure class="foliobox interior">
-                    <img src="images/folio6.gif" alt="Интерьер гостиничного номера">
+                <figure class="foliobox doors exterior" img-group="6">
+                    <img src="~/images/doors/Image00007.jpg" alt="Входные группы">
+                    <figcaption>
+                        <span class="folcat">Входные группы</span>
+                        @*<h3 class="foltitle"></h3>*@
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox furniture" img-group="7">
+                    <img src="~/images/furniture/Image00005.jpg" alt="Мебель из массива">
+                    <figcaption>
+                        <span class="folcat">Мебель из массива</span>
+                        <h3 class="foltitle">Классическая серия</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox interior" img-group="8">
+                    <img src="~/images/hotel1/Image00001.jpg" alt="Интерьер гостинциы">
                     <figcaption>
                         <span class="folcat">Интерьер</span>
-                        <h3 class="foltitle">Гостиница</h3>
+                        <h3 class="foltitle">Оформление гостиницы</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox interior" img-group="9">
+                    <img src="~/images/hotel2/Image00001.jpg" alt="Интерьер гостинциы">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Оформление гостиницы</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox interior" img-group="10">
+                    <img src="~/images/private-home/Image00001.jpg" alt="Интерьер частного дома">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Частный дом</h3>
+                        <!--<a href="#" class="goto">Подробее</a>-->
+                    </figcaption>
+                </figure><!-- end foliobox -->
+                <figure class="foliobox interior furniture" img-group="11">
+                    <img src="~/images/private-home2/Image00001.jpg" alt="Интерьер частного дома">
+                    <figcaption>
+                        <span class="folcat">Интерьер</span>
+                        <h3 class="foltitle">Частный дом</h3>
                         <!--<a href="#" class="goto">Подробее</a>-->
                     </figcaption>
                 </figure><!-- end foliobox -->
