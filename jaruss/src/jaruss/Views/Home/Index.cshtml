@@ -31,45 +31,7 @@
         <span class="fa fa-fw fa-chevron-right"></span>
     </a>
 
-</div> <!-- Carousel -->
-
-@*<section class="home-service">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-service">
-                <span class="small-icon">
-                    <i class="fa fa-fw fa-group"></i>
-                </span>
-                <div class="small-icon-text">
-                    <h1 class="medium">Команда</h1>
-                    <p>Наш подход к работе требует высочайшей квалификации, и мы рады, что наша команда успешно справляется со своими задачами.</p>
-                </div><!-- end text -->
-            </div><!-- end column -->
-
-            <div class="col-service">
-                <span class="small-icon">
-                    <i class="fa fa-fw fa-gears"></i>
-                </span>
-                <div class="small-icon-text">
-                    <h1 class="medium">Технологии</h1>
-                    <p>Нам нравится сплав современных технологий и традиционных приемов работы. Соединение «ласточкин хвост», используемое с незапамятных времен, и самая современная фурнитура, почему нет?</p>
-                </div><!-- end text -->
-            </div><!-- end column -->
-
-            <div class="col-service">
-                <span class="small-icon">
-                    <i class="fa fa-fw fa-cube"></i>
-                </span>
-                <div class="small-icon-text">
-                    <h1 class="medium">Материалы</h1>
-                    <p>Мы не идем на компромиссы, когда речь идет о материалах для наших изделий.  Для всех работ используется массив дерева благородных пород.</p>
-                </div><!-- end text -->
-            </div><!-- end column -->
-
-        </div><!-- end row -->
-    </div><!-- end container -->
-</section><!-- end service-row -->*@
+</div>
 
 <section class="home-about">
     <div class="container">
@@ -77,13 +39,7 @@
             <div style="padding-top:60px;">
                 <h1 class="home-title">Кто мы такие</h1>
                 <p class="trigger animated fadeInUp"><span class="bold" style="font-weight: bold;font-size: 18px;">Столярная мастерская «Ярусс»</span> - это команда профессиональных столяров, имеющая в своем распоряжении самое современное оборудование и знания, передаваемые из поколения в поколение. Направление нашей работы варьируется от мебели и предметов интерьера, до экстерьеров и реставрации. Все наши проекты объединяет общий почерк мастерской, который складывается из внимания к деталям, использования исключительно качественных и натуральных материалов, проектирование с учетом условий эксплуатации и открытое общение с заказчиком.</p>
-                @*<p><a href="@Url.Action("Services", "Home")" class="btn btn-default">Подробнее</a></p>*@
             </div><!-- end column -->
-            @*<div class="about-figure">
-                <figure>
-                    <img src="images/who-we-are.jpg" alt="Ярусс - столярная мастерская с профессиональной командой столяров">
-                </figure>
-            </div>*@<!-- end column -->
             <div class="service-wrapper">
 
                 <div class="col-service trigger animated fadeInLeft">
@@ -396,3 +352,68 @@
         </div>
     </div>
 </section><!-- end partner -->
+
+@*PhotoSwipe block*@
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+     It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+        PhotoSwipe keeps only 3 of them in the DOM to save memory.
+        Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                @*<button class="pswp__button pswp__button--share" title="Share"></button>*@
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                @*<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->*@
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

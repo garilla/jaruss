@@ -5,23 +5,17 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://jaruss.net/index.html</loc>
-  <lastmod>2015-03-29T13:25:11+00:00</lastmod>
+  <loc>http://jaruss.net/index</loc>
+  <lastmod>2016-04-05T13:25:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://jaruss.net/faq.html</loc>
-  <lastmod>2015-03-29T13:25:11+00:00</lastmod>
+  <loc>http://jaruss.net/faq</loc>      	<lastmod>2016-04-05T13:25:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://jaruss.net/services.html</loc>
-  <lastmod>2015-03-29T13:25:11+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://jaruss.net/contact.html</loc>
-  <lastmod>2015-03-29T13:25:11+00:00</lastmod>
+  <loc>http://jaruss.net/contact</loc>
+	<lastmod>2016-04-05T13:25:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>
