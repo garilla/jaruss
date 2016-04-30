@@ -92,9 +92,13 @@ namespace jaruss
                     template: "services",
                     defaults: new { controller = "Home", action = "Services" });
                 routes.MapRoute(
-                    name: "forSale",
-                    template: "forSale",
-                    defaults: new { controller = "Home", action = "ForSale" });
+                    name: "chestOfDrawers",
+                    template: "chestOfDrawers",
+                    defaults: new { controller = "Home", action = "ChestOfDrawers" });
+                routes.MapRoute(
+                    name: "cupboard",
+                    template: "cupboard",
+                    defaults: new { controller = "Home", action = "Cupboard" });
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}");

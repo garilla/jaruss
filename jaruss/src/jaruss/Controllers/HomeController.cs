@@ -27,7 +27,12 @@ namespace jaruss.Controllers
             return View();
         }
 
-        public IActionResult ForSale()
+        public IActionResult ChestOfDrawers()
+        {
+            return View();
+        }
+
+        public IActionResult Cupboard()
         {
             return View();
         }

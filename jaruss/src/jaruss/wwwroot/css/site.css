@@ -6111,8 +6111,8 @@ button.close {
   background-color: #2f3043;
 }
 .site-navigation li.has-child > a {
-  padding-right: 26px;
-  background: transparent url('../images/caret-down5fc7.png?1418493109') no-repeat 95% center;
+  /*padding-right: 26px;*/
+  /*background: transparent url('../images/caret-down5fc7.png?1418493109') no-repeat 95% center;*/
 }
 .site-navigation li:hover > a {
   background-color: #2f3043;

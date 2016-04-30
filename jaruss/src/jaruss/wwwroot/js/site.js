@@ -50,7 +50,7 @@ var itemGroups = [
     ],
     // 6 - doors
     [
-        { src: 'images/doors/Image00001.jpg', w: 862, h: 1285 },
+        { src: 'images/doors/Image00001.jpg', w: 1236, h: 1902 },
         { src: 'images/doors/Image00002.jpg', w: 1037, h: 1549 },
         { src: 'images/doors/Image00003.jpg', w: 942, h: 1406 },
         { src: 'images/doors/Image00004.jpg', w: 1037, h: 1549 },
@@ -73,8 +73,8 @@ var itemGroups = [
     // 9 - hotel2
     [
         { src: 'images/hotel2/Image00014.jpg', w: 1018, h: 821 },
-        { src: 'images/hotel2/Image00012.jpg', w: 844, h: 1126 },
-        { src: 'images/hotel2/Image00013.jpg', w: 1086, h: 844 }
+        { src: 'images/hotel2/Image00001.jpg', w: 1056, h: 1408 },
+        { src: 'images/hotel2/Image00002.jpg', w: 1056, h: 1408 }
     ],
     // 10 - private-home
     [
